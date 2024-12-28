@@ -1,0 +1,21 @@
+spring:
+  data:
+    mongodb:
+      uri: xxxxx
+      database: journalDb
+      auto-index-creation: true
+  mail:
+    host: smtp.gmail.com
+    port: 582
+    username: email@gmail.com
+    password: devil
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+
+server:
+  port: 9090
